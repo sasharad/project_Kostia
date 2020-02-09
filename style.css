@@ -242,8 +242,36 @@ p{
   .block p{
     font-size: 10px;
   }
+
+  .methods{
+    display: none;
+  }
+
+  .destroy{
+    display: none;
+  }
+
   .extra{
-    display: flex!important;
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .num_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .num_2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    
   }
 
   .invoice{
