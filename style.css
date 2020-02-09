@@ -242,7 +242,9 @@ p{
   .block p{
     font-size: 10px;
   }
-
+  .extra{
+    display: flex!important;
+  }
 
   .invoice{
     height: 220px;
@@ -274,7 +276,11 @@ p{
       font-size: 10px;
     }
   
-  
+    .pay_method{
+      margin-left: 40px;
+      margin-right: 40px!important;
+    }
+
     .invoice{
       height: 220px;
       padding-top: 10px;
