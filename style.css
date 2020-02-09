@@ -119,7 +119,7 @@ p{
 }
 
 .contacts{
-  margin-left: 50px;;
+  margin-left: 50px;
 }
 /* footer */
 
@@ -147,6 +147,7 @@ p{
 
 .invoice{
   width: 950px;
+  height: 270px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.5);
   padding-top: 30px;
   padding-bottom: 30px;
@@ -156,17 +157,7 @@ p{
 
 }
 
-.invoice_number p{
-  font-size: 25px;
-  font-weight: bolder;
-  color: #1EA3ED;
-}
 
-.sum p{
-  font-size: 25px;
-  font-weight: bolder;
-  color: #1EA3ED;
-}
 
 .sum{
   border-top: 2px solid #EAEAEA;
@@ -177,7 +168,7 @@ p{
 
 
 /* main2 */
-.text p{
+.large p{
   font-size: 25px;
   font-weight: bolder;
   color: #1EA3ED;
@@ -208,7 +199,7 @@ p{
   padding: 30px;
   padding-bottom: 5px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .block p{
@@ -222,13 +213,84 @@ p{
 
 .block img{
   width: 100%;
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 90px;
+  max-height: 90px;
 }
 
 .block:hover{
   box-shadow: 0 20px 17px -5px rgba(170, 159, 159, 0.5);
+  transition: 0.1s;
 }
+
+
+
+.extra{
+  display: none;
+}
+/* media  */
+@media screen and (max-height: 900px ){
+  .block{
+  max-width: 130px;
+  max-height: 130px;
+  padding: 15px;
+  padding-bottom: 2px;
+  }
+  .block img{
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .block p{
+    font-size: 10px;
+  }
+
+
+  .invoice{
+    height: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .large p{
+    font-size: 16px;
+  }
+  .text_small p{
+    font-size: 12px;
+  } 
+}
+
+
+
+@media screen and (max-width: 1024px ){
+    .block{
+    max-width: 110px;
+    max-height: 110px;
+    padding: 15px;
+    padding-bottom: 2px;
+    }
+    .block img{
+      max-width: 70px;
+      max-height: 70px;
+    }
+    .block p{
+      font-size: 10px;
+    }
+  
+  
+    .invoice{
+      height: 220px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+    .large p{
+      font-size: 16px;
+    }
+    .text_small p{
+      font-size: 12px;
+    }
+
+}
+
+
 
 
 
