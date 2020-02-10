@@ -231,6 +231,9 @@ p{
 }
 /* media  */
 
+
+
+
 @media screen and (max-width: 800px ){
 
 .invoice{
@@ -283,8 +286,13 @@ p{
   font-size: 10px;;
 }
 
+.header_main img{
+  width: 90px;
+  height: 35px;
+}
+
 .header_main{
-  padding-right: 100px;
+  padding-right: 10px;
   padding-left: 10px;
 }
 
@@ -294,7 +302,8 @@ p{
 
 .language1{
   width: 120px;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 /* footer */
 .footer_main{
@@ -312,7 +321,7 @@ p{
 }
 
 .cont{
-  margin-left: 30px;
+  margin-left: 20px;
   margin-right: 10px;
 }
 
@@ -322,6 +331,30 @@ p{
 }
 }
 
+@media screen and (max-width: 374px ){
+  .invoice{
+    width: 270px!important;
+  }
+
+  .pay_method{
+    width: 300px!important;
+  }
+
+  .methods{
+    width: 300px;
+  }
+
+  .block{
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+  }
+  
+  .block img{
+    width: 30px;
+    height: 30px;
+  }
+}
 
 @media screen and (max-height: 900px ){
   .block{
