@@ -9,9 +9,6 @@ p{
   font-size: 15px;
 }
 
-.header_main img{
-  height: 50px;
-}
 
 .align_vert{
   display: flex;
@@ -34,6 +31,10 @@ p{
   font-size: 13px;
 }
 
+.header_main img{
+  height: 50px;
+}
+
 .header_main{
   display: flex;
   flex-direction: column;
@@ -45,10 +46,9 @@ p{
   position: fixed;
   background-color: #0088D2;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  padding-right: 40px;
+  padding-right: 100px;
   padding-left: 40px;
 }
-
 
 .buttons{
   display: flex;
@@ -57,7 +57,7 @@ p{
 }
 
 .language1{
-  margin-right: 100px;
+  margin-right: 80px;
   width: 150px;
   display: flex;
   justify-content: space-around;
@@ -65,7 +65,7 @@ p{
 }
 
 .line_header{
-  width:2px;
+  width: 2px;
   border-left: 2px solid white;
 }
 /* header */
@@ -75,7 +75,7 @@ p{
 
 /* footer */
 .cont{
-  margin-left: 70px;
+  margin-left: 40px;
   margin-right: 40px;
 }
 
@@ -120,10 +120,6 @@ p{
   flex-direction: row;
 }
 
-.contacts{
-  /* margin-left: 50px; */
-}
-
 /* footer */
 
 
@@ -139,14 +135,10 @@ p{
   justify-content: center;
   margin-right: 100px;
   margin-left: 100px;
+  margin-top: 80px;
 
 }
 /* main1 */
-.container{
-  margin-top: 60px;
-  margin-left: 90px;
-  margin-right: 90px;
-}
 
 .paint_grey{
   color: #9E9E9E;
@@ -214,7 +206,9 @@ p{
   font-size: 15px;
 }
 
-
+.block_last{
+  margin-right: -40px;
+}
 
 .block img{
   width: 100%;
@@ -237,111 +231,136 @@ p{
 
 
 
+@media screen and (min-width: 1890px ){
+  .invoice{
+    width: 1200px;
+  }
+  
+  .methods{
+    margin-top: 10px;
+    width: 1200px;
+  }
+  
+  .pay_method{
+    width: 1200px;
+    margin-bottom: 120px;
+  }
+  
+  .block{
+    width: 180px!important;
+    height: 1600px;
+    padding: 10px;
+  }
+
+  /* header */
+  .header_main p{
+    font-size: 20px;
+  }
+  
+}
+
+
+
 @media screen and (max-width: 800px ){
 
-.invoice{
-  width: 290px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+  .invoice{
+    width: 290px;
+  }
+  
+  .methods{
+    margin-top: 10px;
+    width: 330px;
+  }
+  
+  .pay_method{
+    width: 330px;
+    margin-bottom: 120px;
+  }
+  
+  .block{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+  }
+  
+  .block img{
+    width: 40px;
+    height: 40px;
+  }
 
-.methods{
-  margin-top: 10px;
-  width: 330px;
-}
-
-.pay_method{
-  width: 330px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 120px;
-}
-
-.block{
-  width: 70px;
-  height: 70px;
-  padding: 10px;
-}
-
-.block img{
-  width: 40px;
-  height: 40px;
-}
-
-.destroy{
-  display: none;
-}
-
-.extra{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-  padding-left: 55px;
-  padding-right: 55px;
-  margin
-}
-
-
-/* header */
-.header_main p{
-  font-size: 10px;;
-}
-
-.header_main img{
-  width: 90px;
-  height: 35px;
-}
-
-.header_main{
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.buttons{
-  height: 20px;
-}
-
-.language1{
-  width: 120px;
-  margin-left: 0px;
-  margin-right: 20px;
-}
-/* footer */
-.footer_main{
-  width: 100%;
-  display: flex;
-}
-
-.footer_main img{
-  width: 50px;
-  height: 20px;
-}
-
-.footer_main p{
-  font-size: 10px;
-}
-
-.cont{
-  margin-left: 20px;
-  margin-right: 10px;
-}
-
-.language2{
-  height: 20px;
-  width: 120px;
-}
+  /* extra */
+  
+  .destroy{
+    display: none;
+  }
+  .extra{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  /* extra */
+  
+  .block_last{
+    margin-right: 0px;
+  }
+  
+  /* header */
+  .header_main p{
+    font-size: 10px;;
+  }
+  
+  .header_main img{
+    width: 100px;
+    height: 35px;
+  }
+  
+  .header_main{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .buttons{
+    height: 20px;
+  }
+  
+  .language1{
+    width: 120px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+  /* footer */
+  .footer_main{
+    width: 100%;
+    display: flex;
+  }
+  
+  .footer_main img{
+    width: 50px;
+    height: 20px;
+  }
+  
+  .footer_main p{
+    font-size: 10px;
+  }
+  
+  .cont{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .language2{
+    height: 20px;
+    width: 120px;
+  }
 }
 
 @media screen and (max-width: 374px ){
+  
   .header_main{
     padding-right: 0px;
     padding-left: 0px;
-  }
-
-  .footer_main{
-    padding: 0;
   }
   
   .invoice{
@@ -372,9 +391,7 @@ p{
     width: 40px;
     height: 18px;
   }
-  .block_last{
-    margin-left: 5px;
-  }
+
 
 }
 
