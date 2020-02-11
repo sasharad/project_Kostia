@@ -136,7 +136,11 @@ p{
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 80px;
+}
 
+.container{
+  padding-right: 100px;
+  padding-left: 100px; 
 }
 /* main1 */
 
@@ -153,7 +157,9 @@ p{
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 100px;
-
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 
@@ -231,30 +237,36 @@ p{
 
 
 
-/* @media screen and (min-width: 1890px ){
-  .invoice{
-    width: 1200px;
-  }
-  
-  .methods{
-    margin-top: 10px;
-    width: 1200px;
-  }
-  
-  .pay_method{
-    width: 1200px;
-    margin-bottom: 120px;
-  }
-  
+@media screen and (max-width: 1050px ){
   .block{
-    width: 180px!important;
-    height: 1600px;
+    width: 110px;
+    height: 110px;
     padding: 10px;
-  }
+    padding-bottom: 2px;
+    }
   
-} */
-
-
+    .block img{
+      width: 80px;
+      height: 80px;
+    }
+  
+    .methods{
+      margin-top: 10px;
+      width: 700px;
+    }
+    
+    .pay_method{
+      width: 700px;
+      margin-bottom: 120px;
+    }
+  
+    .invoice{
+      height: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 700px;
+    }
+}
 
 @media screen and (max-width: 800px ){
 
