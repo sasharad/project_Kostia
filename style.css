@@ -358,6 +358,15 @@ p{
     padding-left: 0px;
   }
   
+  .footer_main img{
+    width: 40px;
+    height: 18px;
+  }
+
+  .language2{
+    margin-right: -10px;
+  }
+
   .invoice{
     width: 270px!important;
   }
@@ -382,11 +391,9 @@ p{
     height: 34px;
   }
 
-  .footer_main img{
-    width: 40px;
-    height: 18px;
+  .block_last{
+    margin-left: 5px;
   }
-
 
 }
 
